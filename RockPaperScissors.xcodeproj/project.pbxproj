@@ -10,6 +10,7 @@
 		E085BCD91E09A35B004B8374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E085BCD81E09A35B004B8374 /* main.m */; };
 		E085BCE11E09A380004B8374 /* RPSGame.m in Sources */ = {isa = PBXBuildFile; fileRef = E085BCE01E09A380004B8374 /* RPSGame.m */; };
 		E085BCE41E09A395004B8374 /* RPSTurn.m in Sources */ = {isa = PBXBuildFile; fileRef = E085BCE31E09A395004B8374 /* RPSTurn.m */; };
+		E0E25ACD1E0AD51A009DAA96 /* RPSController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E25ACC1E0AD51A009DAA96 /* RPSController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		E085BCE01E09A380004B8374 /* RPSGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSGame.m; sourceTree = "<group>"; };
 		E085BCE21E09A395004B8374 /* RPSTurn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSTurn.h; sourceTree = "<group>"; };
 		E085BCE31E09A395004B8374 /* RPSTurn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSTurn.m; sourceTree = "<group>"; };
+		E0E25ACB1E0AD51A009DAA96 /* RPSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPSController.h; sourceTree = "<group>"; };
+		E0E25ACC1E0AD51A009DAA96 /* RPSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPSController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				E085BCE01E09A380004B8374 /* RPSGame.m */,
 				E085BCE21E09A395004B8374 /* RPSTurn.h */,
 				E085BCE31E09A395004B8374 /* RPSTurn.m */,
+				E0E25ACB1E0AD51A009DAA96 /* RPSController.h */,
+				E0E25ACC1E0AD51A009DAA96 /* RPSController.m */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				E085BCD91E09A35B004B8374 /* main.m in Sources */,
 				E085BCE11E09A380004B8374 /* RPSGame.m in Sources */,
 				E085BCE41E09A395004B8374 /* RPSTurn.m in Sources */,
+				E0E25ACD1E0AD51A009DAA96 /* RPSController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +267,7 @@
 				E085BCDE1E09A35B004B8374 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
