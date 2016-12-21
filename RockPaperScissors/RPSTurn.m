@@ -64,4 +64,21 @@
     }
 }
 
+-(NSString*)description {
+    switch (self.move) {
+        case Rock:
+            return @"Rock";
+            break;
+        case Paper:
+            return @"Paper";
+            break;
+        case Scissors:
+            return @"Scissors";
+            break;
+        case Invalid:
+            return @"Invalid";
+            
+    }
+}
+
 @end
