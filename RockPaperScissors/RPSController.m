@@ -22,8 +22,6 @@
     RPSTurn *playersTurn = [[RPSTurn alloc]initWithMove:playersMove];
     RPSTurn *computersTurn = [[RPSTurn alloc] init];
     
-        //computersTurn.move = playersTurn.move;
-    
     // The RPSGame class stores the results of a game
     self.game = [[RPSGame alloc] initWithFirstTurn:playersTurn
                                         secondTurn:computersTurn];

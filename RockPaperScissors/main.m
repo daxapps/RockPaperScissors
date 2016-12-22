@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         RPSController *gameController = [[RPSController alloc] init];
-        [gameController throwDown: Paper];
+        [gameController throwDown: Rock];
         NSString *resultsMessage = [gameController messageForGame:gameController.game];
         NSLog(@"%@", resultsMessage);
     }
